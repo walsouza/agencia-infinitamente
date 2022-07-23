@@ -1,0 +1,305 @@
+/*Estilo para notebook*/
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  
+  .introducao {
+    height: 705px;
+  }
+  .grid-desc {
+    width: 79%;
+  }
+  .bullets {
+    width: 100%;
+    top: -20%;
+    height: 61px;
+    padding: 10px;
+  }
+  
+}
+
+/*Estilo para tablets-pro*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  div#loader {
+    display: none;
+  }
+  
+  .container {
+    width: 769px;
+  }
+  .introducao {
+    height: 538px;
+  }
+  .grid-desc {
+    width: 79%;
+  }
+  .grid-desc2 {
+    width: 16%;
+  }
+  .descricao {
+    height: 30vh;
+    padding: 30px 30px;
+  }
+  .centered {
+    font-size: 3em;
+  }
+  .bullets {
+    width: 100%;
+    top: -20%;
+    height: 61px;
+    padding: 10px;
+  }
+  
+  /*Internas*/
+  
+  .grid-descinter {
+    width: 69%;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  .subtitulo {
+    font-size: 19px;
+  }
+  .prevhome {
+    padding: 0px;
+  }
+  .close {
+    top: 97%;
+    margin-left: 151px;
+    font-size: 80px;
+  }
+  .grid-logo img {
+    width: 201px;
+    margin-left: 80%;
+    margin-bottom: 100px;
+  }
+  
+}
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  div#loader {
+    display: none;
+  }
+  .container {
+    width: 769px;
+  }
+  .introducao {
+    height: 438px;
+  }
+  .grid-desc {
+    width: 77%;
+  }
+  .grid-desc2 {
+    width: 16%;
+  }
+  .descricao {
+    height: 30vh;
+    padding: 30px 30px;
+  }
+  .centered {
+    font-size: 3em;
+  }
+  .titulo {
+    font-size: 35px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  .bullets {
+    width: 100%;
+    top: -20%;
+    height: 61px;
+    padding: 10px;
+  }
+  
+  /*Internas*/
+  
+  .grid-descinter {
+    width: 69%;
+  }
+  .subtitulo {
+    font-size: 14px;
+  }
+  .prevhome {
+    padding: 0px;
+    font-size: 40px;
+  }
+  .close {
+    top: 97%;
+    margin-left: 121px;
+    font-size: 60px;
+  }
+  .prev, .next {
+    font-size: 50px;
+  }
+  .interna {
+    padding-top: 30px;
+  }
+  .grid-logo img {
+    width: 201px;
+    margin-left: 70%;
+    margin-bottom: 100px;
+  }
+  .contato_form label{
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .contato_form input {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+
+  .contato_form textarea {
+    width: 100%;
+    height: 348px;
+    font-size: 14px;
+  }
+  .btn {
+    padding: 30px 40px;
+    font-size: 24px;
+  }
+  .contato_form {
+    padding-right: 0;
+  }
+
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+  
+  div#loader {
+    display: none;
+  }
+  
+  .introducao {
+    height: 221px;
+    margin-bottom: 60px;
+  }
+  .grid-desc {
+    width: 72%;
+    padding-left: 5px;
+  }
+  .grid-desc2 {
+    width: 26%
+  }
+  .descricao {
+    height: 30vh;
+    padding: 30px 30px;
+  }
+  .centered {
+    font-size: 3em;
+  }
+  .titulo {
+    font-size: 24px;
+  }
+  .logo {
+    width: 95px;
+  }
+  .copyright {
+    font-size: 7px;
+  }
+  .bullets {
+    width: 100%;
+    top: -20%;
+    height: 103px;
+    padding: 10px;
+  }
+  
+  .dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 20px;
+    border: 2px solid #000;
+  }
+  .social {
+    margin: 5px;
+    display: inline-block;
+    width: 15px;
+  }
+  /*Internas*/
+  
+  .grid-descinter {
+    width: 69%;
+  }
+  .subtitulo {
+    font-size: 12px;
+  }
+  .prevhome {
+    padding: 0px;
+    font-size: 20px;
+  }
+  .close {
+    top: 92%;
+    margin-left: 71px;
+    font-size: 46px;
+  }
+  .prev, .next {
+    font-size: 26px;
+  }
+  .next {
+    margin-left: 30px;
+  }
+  .descricao {
+    height: 30vh;
+    padding: 5px 0px;
+  }
+  .cxdesc {
+    width: 90%;
+  }
+  .interna {
+    padding-top: 30px;
+  }
+  
+  .grid-logo img {
+    width: 90px;
+    margin-left: 70%;
+    margin-bottom: 30px;
+  }
+  .contato_form label{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contato_form input {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+
+  .contato_form textarea {
+    width: 100%;
+    height: 248px;
+    font-size: 14px;
+  }
+  .btn {
+    padding: 20px 30px;
+    font-size: 18px;
+  }
+  .contato_form {
+    padding-right: 0;
+  }
+  .contatresp {
+    width: 100%;
+    padding: 10px;
+  }
+  .rodape {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    padding: 70px 5px 0 5px;
+    clear: both;
+  }
+
+}

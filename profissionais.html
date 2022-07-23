@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Infinitamente - Exposição Profissionais do Ano</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+		<link rel="stylesheet" href="css/responsivo.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+		<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/73b4f907-1254-4c00-b907-b6308109810d-loader.js" ></script>
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- JavaScript -->      
+	</head>
+  <body>
+    <div class="row">
+      <div class="column zoom">
+        <img src="img/thumb_profissionais.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column zoom">
+        <img src="img/thumb_profissionais_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column zoom">
+        <img src="img/thumb_profissionais_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column zoom">
+        <img src="img/thumb_profissionais_4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="column zoom">
+        <img src="img/thumb_profissionais_5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </div>
+      <div class="column zoom">
+        <img src="img/thumb_profissionais_6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+
+        <div class="mySlides">
+<!--          <img src="img/foto_profissionais_1.jpg" style="width:100%">-->
+          <video width="100%" height="auto" controls>
+            <source src="videos/Profissionais-1.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="mySlides">
+          <img src="img/foto_profissionais_2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="img/foto_profissionais_3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="img/foto_profissionais_4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="img/foto_profissionais_5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="img/foto_profissionais_6.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+      </div>
+    </div>
+    <section class="container-max">
+      <div class="descricao interna">
+        <div class="grid-prev">
+          <a href="index.html" class="prevhome">&#10094;</a>
+        </div>
+        <div class="grid-descinter">
+          <h1 class="titulo">Exposição Profissionais do Ano: 40 Anos</h1>
+          <div class="cxdesc">
+            <p class="subtitulo">Nos 40 anos do prêmio Profissionais do Ano, levamos os gênios contemporâneos da propaganda brasileira através de uma exposição que foi uma verdadeira viagem no tempo. Construímos um túnel de 40 metros onde o visitante passeava por todas as 40 edições do prêmio, além de uma projeção mapeada na parede exibindo histórias e depoimentos de publicitários famosos, que o visitante podia acompanhar enquanto descansava imerso em uma das redes. Fizemos ainda a cenografia de duas instalações instagramáveis, com a logo do prêmio interativa e com slogans famosos para os visitantes tirarem fotos divertidas e postarem em suas redes sociais.</p>
+          </div>
+        </div>
+        <div class="grid-desc2">
+          <a href="contato.html"><img src="img/logo.png" class="logo"></a>
+        </div>
+      </div>
+      <div class="rodape">
+        <div class="grid-desc">
+          <a href="https://vimeo.com/user22428073"><img src="img/vimeo.png" class="social"></a>
+          <a href="https://br.pinterest.com/infinitamente/"><img src="img/pinterest.png" class="social"></a>
+          <a href="https://www.facebook.com/infinitamenteestudio/"><img src="img/facebook.png" class="social"></a>
+          <a href="https://www.instagram.com/infinitamente_estudio/"><img src="img/instagram.png" class="social"></a>
+        </div>
+        <div class="grid-desc2">
+          <p class="copyright">&copy; 2020 infinitamente.</p>
+        </div>
+      </div>
+    </section>
+
+	<!-- JavaScript slider -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+    <script src="js/galeria.js"></script>
+	<!-- JavaScript slider --> 
+  </body>
+</html>
